@@ -36,9 +36,12 @@ const Hero = () => {
               repeat={Infinity}
             />
           </h2>
-          <p className={darkMode ? 'font-medium text-[17px] md:text-lg py-4 px-4 mb-5' : 'font-medium text-[17px] md:text-lg py-4 px-4 text-slate-50 mb-5'}>
-            Mi nombre es <span className='font-semibold'>Henry Guerrero.</span> <br />Fullstack Web Developer, Freelancer & Systems Engineering Degree
-          </p>
+          <section className={darkMode ? 'font-medium text-[17px] md:text-lg py-4 px-4 mb-10' : 'font-medium text-[17px] md:text-lg py-4 px-4 text-slate-50 mb-10'}>
+            Mi nombre es <span className='font-semibold'>Henry Guerrero.</span> <br />
+            <p className='leading-4 text-xs pt-3'>
+              Fullstack Web Developer, Freelancer & Systems Engineering Degree
+            </p>
+          </section>
         </div>
         <div className={darkMode ? ('rounded-full bg-slate-400 w-auto absolute bottom-0 translate-y-6')
           :
