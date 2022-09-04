@@ -19,7 +19,7 @@ const Projects = ({ title, description, image, link }) => {
   return (
     <a href={link} target='__blank'>
       <div
-        className="relative overflow-hidden bg-no-repeat bg-cover max-w-xs cursor-pointer rounded-md shadow-2xl"
+        className="relative overflow-hidden bg-no-repeat bg-cover max-w-xs cursor-pointer rounded-md shadow-2xl mx-3"
         style={{ backgroundPosition: "50%" }}
         onMouseEnter={handleHover}
         onMouseLeave={handleLeave}

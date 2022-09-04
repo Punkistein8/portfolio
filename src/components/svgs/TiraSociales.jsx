@@ -3,12 +3,12 @@ import React from 'react'
 const TiraSociales = () => {
   return (
 
-    <div className="flex justify-center space-x-2 text-gray-700 bg-black ">
+    <div className="flex flex-wrap gap-8 justify-between text-gray-700 bg-black py-12">
       {/* Discord */}
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 640 512"
-        className="text-white w-5 h-5"
+        viewBox="0 0 645 517"
+        className="text-white w-6 h-6 mx-10 md:w-10 md:mx-10"
       >
         <path
           fill="currentColor"
@@ -20,8 +20,8 @@ const TiraSociales = () => {
       {/* Facebook */}
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 320 512"
-        className="text-white w-5 h-5"
+        viewBox="0 0 325 517"
+        className="text-white w-6 h-6 mx-10 md:w-10 md:mx-10"
       >
         <path
           fill="currentColor"
@@ -33,8 +33,8 @@ const TiraSociales = () => {
       {/* Messenger */}
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 512 512"
-        className="text-white w-5 h-5"
+        viewBox="0 0 515 517"
+        className="text-white w-6 h-6 mx-10 md:w-10 md:mx-10"
       >
         <path
           fill="currentColor"
@@ -46,8 +46,8 @@ const TiraSociales = () => {
       {/* Twitter */}
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 512 512"
-        className="text-white w-5 h-5"
+        viewBox="0 0 515 517"
+        className="text-white w-6 h-6 mx-10 md:w-10 md:mx-10"
       >
         <path
           fill="currentColor"
@@ -59,8 +59,8 @@ const TiraSociales = () => {
       {/* Linkedin */}
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 448 512"
-        className="text-white w-5 h-5"
+        viewBox="0 0 445 517"
+        className="text-white w-6 h-6 mx-10 md:w-10 md:mx-10"
       >
         <path
           fill="currentColor"
@@ -71,8 +71,8 @@ const TiraSociales = () => {
       {/* Stack overflow */}
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 384 512"
-        className="text-white w-5 h-5"
+        viewBox="0 0 385 517"
+        className="text-white w-6 h-6 mx-10 md:w-10 md:mx-10"
       >
         <path
           fill="currentColor"
@@ -83,8 +83,8 @@ const TiraSociales = () => {
       {/* Telegram */}
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 496 512"
-        className="text-white w-5 h-5"
+        viewBox="0 0 495 517"
+        className="text-white w-6 h-6 mx-10 md:w-10 md:mx-10"
       >
         <path
           fill="currentColor"
@@ -95,8 +95,8 @@ const TiraSociales = () => {
       {/* Github */}
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 496 512"
-        className="text-white w-5 h-5"
+        viewBox="0 0 495 517"
+        className="text-white w-6 h-6 mx-10 md:w-10 md:mx-10"
       >
         <path
           fill="currentColor"
@@ -108,8 +108,8 @@ const TiraSociales = () => {
       {/* Whatsapp */}
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 448 512"
-        className="text-white w-5 h-5"
+        viewBox="0 0 445 517"
+        className="text-white w-6 h-6 mx-10 md:w-10 md:mx-10"
       >
         <path
           fill="currentColor"
