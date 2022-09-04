@@ -9,7 +9,7 @@ const Projects = () => {
   const { darkMode } = useContext(IsDarked); //consumiendo el contexto para saber si esta en modo Dark, o no
 
   return (
-    <div className='flex flex-col gap-10'>
+    <div id='projects' className='flex flex-col gap-10'>
       <h2 className={darkMode ? ('text-center text-2xl text-amber-300 font-semibold') : ('text-center text-2xl text-violet-900 font-semibold')}>My Projects</h2>
       <div className='flex items-center justify-center flex-col gap-8 mb-16 sm:flex-row'>
         <ProjectsCards

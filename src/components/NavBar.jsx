@@ -36,8 +36,8 @@ const NavBar = () => {
 
         <ul className={showMenu ? 'transition-all ease-in-out flex flex-col gap-4 sm:hidden' : 'hidden'}>
           <a className='font-bold dark:font-normal animate__animated animate__fadeInLeft text-slate-900 hover:text-violet-900 dark:text-slate-100 cursor-pointer self-center dark:hover:text-amber-300 py-3'>about me</a>
-          <a className='font-bold dark:font-normal animate__animated animate__fadeInRight text-slate-900 hover:text-violet-900 dark:text-slate-100 cursor-pointer self-center dark:hover:text-amber-300 py-3'>my projects</a>
-          <a className='font-bold dark:font-normal animate__animated animate__fadeInLeft text-slate-900 hover:text-violet-900 dark:text-slate-100 cursor-pointer self-center dark:hover:text-amber-300 py-3'>contact me</a>
+          <a href='#projects' className='font-bold dark:font-normal animate__animated animate__fadeInRight text-slate-900 hover:text-violet-900 dark:text-slate-100 cursor-pointer self-center dark:hover:text-amber-300 py-3'>my projects</a>
+          <a href='#contact' className='font-bold dark:font-normal animate__animated animate__fadeInLeft text-slate-900 hover:text-violet-900 dark:text-slate-100 cursor-pointer self-center dark:hover:text-amber-300 py-3'>contact me</a>
         </ul>
 
         <div className='hidden sm:flex gap-4 py-5 px-2 justify-around'>
@@ -47,8 +47,8 @@ const NavBar = () => {
           </div>
           <ul className='flex gap-6'>
             <a className='font-bold dark:font-normal text-slate-900 hover:text-violet-900 dark:text-slate-100 cursor-pointer self-center dark:hover:text-amber-300'>about me</a>
-            <a className='font-bold dark:font-normal text-slate-900 hover:text-violet-900 dark:text-slate-100 cursor-pointer self-center dark:hover:text-amber-300'>my projects</a>
-            <a className='font-bold dark:font-normal text-slate-900 hover:text-violet-900 dark:text-slate-100 cursor-pointer self-center dark:hover:text-amber-300'>contact me</a>
+            <a href='#projects' className='font-bold dark:font-normal text-slate-900 hover:text-violet-900 dark:text-slate-100 cursor-pointer self-center dark:hover:text-amber-300'>my projects</a>
+            <a href='#contact' className='font-bold dark:font-normal text-slate-900 hover:text-violet-900 dark:text-slate-100 cursor-pointer self-center dark:hover:text-amber-300'>contact me</a>
           </ul>
         </div>
 
