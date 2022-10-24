@@ -3,6 +3,7 @@ import { IsDarked } from '../context/DarkMode';
 import { useContext } from 'react';
 import projOne from '../assets/Proj1.png'
 import projTwo from '../assets/Proj2.png'
+import projThree from '../assets/Proj3.png'
 
 const Projects = () => {
 
@@ -23,6 +24,13 @@ const Projects = () => {
           description={'Este es mi primer portafolio de muestra de trabajos que he hecho como Diseñador Gráfico'}
           image={projTwo}
           link={'https://www.henrylegus.com/'}
+        />
+
+        <ProjectsCards
+          title={'Gif Fetch App'}
+          description={'Una aplicación web que permite buscar y ver gifs animados de la API de Giphy, hecha del curso de Fernando Herrera de React de cero a experto'}
+          image={projThree}
+          link={'https://gif-fetch-fh.netlify.app/'}
         />
       </div>
     </div>
