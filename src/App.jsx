@@ -16,7 +16,7 @@ function App() {
   return (
     <>
       <NavBar />
-      
+
       <Hero />
 
       <div className='flex overflow-hidden my-12'>
