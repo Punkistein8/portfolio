@@ -11,7 +11,7 @@ import projCasitaSabor from '../assets/ProjCasitaSabor.png'
 import projEvacCotopaxi from '../assets/ProjEvacCotopaxi.png'
 const Projects = () => {
 
-  const { darkMode } = useContext(IsDarked); //consumiendo el contexto para saber si esta en modo Dark, o no
+  const { darkMode } = useContext(IsDarked); //consumiendo el contexto para saber si esta en modo Dark, o no.
 
   return (
     <div id='projects' className='flex flex-col gap-10'>
