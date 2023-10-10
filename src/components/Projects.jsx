@@ -6,7 +6,7 @@ import projTwo from '../assets/Proj2.png'
 import projThree from '../assets/Proj3.png'
 import projStayfinder from '../assets/ProjStayfinder.png'
 import projTourUTC from '../assets/ProjTourUTC.png'
-import projMaxicom from '../assets/ProjMaxicom.png'
+import projMaxicom from '../assets/projMaxicom.png'
 import projCasitaSabor from '../assets/ProjCasitaSabor.png'
 import projEvacCotopaxi from '../assets/ProjEvacCotopaxi.png'
 const Projects = () => {
